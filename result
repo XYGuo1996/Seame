@@ -1,0 +1,18 @@
+### WER
+
+|dataset|Snt|Wrd|Corr|Sub|Del|Ins|Err|S.Err|
+|---|---|---|---|---|---|---|---|---|
+|decode_asr_lm_lm_train_lm_transformer_bpe5622_valid.loss.ave_asr_model_valid.acc.ave/devman|6531|96737|85.4|11.4|3.2|1.9|16.6|75.0|
+|decode_asr_lm_lm_train_lm_transformer_bpe5622_valid.loss.ave_asr_model_valid.acc.ave/devsge|5321|54390|79.6|16.1|4.3|2.8|23.2|75.0|
+
+English WER
+|dataset|Snt|Wrd|Corr|Sub|Del|Ins|Err|S.Err|
+|---|---|---|---|---|---|---|---|---|
+|decode_asr_lm_lm_train_lm_transformer_bpe5622_valid.loss.ave_asr_model_valid.acc.ave/devman|6531|24931|77.3|14.4|8.4|6.1|28.9|53.0|
+|decode_asr_lm_lm_train_lm_transformer_bpe5622_valid.loss.ave_asr_model_valid.acc.ave/devsge|5321|34063|76.3|16.4|7.3|4.6|28.4|67.0|
+
+Mandarin CER
+|dataset|Snt|Wrd|Corr|Sub|Del|Ins|Err|S.Err|
+|---|---|---|---|---|---|---|---|---|
+|decode_asr_lm_lm_train_lm_transformer_bpe5622_valid.loss.ave_asr_model_valid.acc.ave/devman|6531|71806|88.2|7.5|4.3|3.3|15.1|59.0|
+|decode_asr_lm_lm_train_lm_transformer_bpe5622_valid.loss.ave_asr_model_valid.acc.ave/devsge|5321|20327|85.3|8.5|6.2|6.8|21.5|34.1|
