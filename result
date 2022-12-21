@@ -24,4 +24,4 @@ The statistics of substitution errors are as follows:
 |---|---|---|---|---|
 |devman|1333|1142|5227|3299|
 |devsge|990|670|1650|5457|
-In this table, the etm means the number of errors identified in English to Mandarin, the mte means the number of errors identified in Mandarin to English, mtm means the number of errors identified in Mandarin to Mandarin, ete means the number of errors identified in English to English.
+In this table, the etm means the number of errors identified in English to Mandarin, mte means the number of errors identified in Mandarin to English, mtm means the number of errors identified in Mandarin to Mandarin, ete means the number of errors identified in English to English.
