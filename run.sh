@@ -5,7 +5,7 @@ set -e
 set -u
 set -o pipefail
 
-stage=12
+stage=1
 stop_stage=13
 
 train_set="train"
