@@ -1,3 +1,5 @@
+The results are as follows:
+
 ### WER
 
 |dataset|Snt|Wrd|Corr|Sub|Del|Ins|Err|S.Err|
@@ -16,3 +18,10 @@ Mandarin CER
 |---|---|---|---|---|---|---|---|---|
 |decode_asr_lm_lm_train_lm_transformer_bpe5622_valid.loss.ave_asr_model_valid.acc.ave/devman|6531|71806|88.2|7.5|4.3|3.3|15.1|59.0|
 |decode_asr_lm_lm_train_lm_transformer_bpe5622_valid.loss.ave_asr_model_valid.acc.ave/devsge|5321|20327|85.3|8.5|6.2|6.8|21.5|34.1|
+
+The statistics of substitution errors are as follows:
+|dataset|etm|mte|mtm|ete|
+|---|---|---|---|---|
+|devman|1333|1142|5227|3299|
+|devsge|990|670|1650|5457|
+In this table, the etm means the number of errors identified in English to Mandarin, the mte means the number of errors identified in Mandarin to English, mtm means the number of errors identified in Mandarin to Mandarin, ete means the number of errors identified in English to English.
